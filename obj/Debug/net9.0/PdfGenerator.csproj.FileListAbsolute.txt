@@ -1,0 +1,14 @@
+C:\GIT\PdfGenerator\bin\Debug\net9.0\PdfGenerator.exe
+C:\GIT\PdfGenerator\bin\Debug\net9.0\PdfGenerator.deps.json
+C:\GIT\PdfGenerator\bin\Debug\net9.0\PdfGenerator.runtimeconfig.json
+C:\GIT\PdfGenerator\bin\Debug\net9.0\PdfGenerator.dll
+C:\GIT\PdfGenerator\bin\Debug\net9.0\PdfGenerator.pdb
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.AssemblyInfoInputs.cache
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.AssemblyInfo.cs
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.csproj.CoreCompileInputs.cache
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.dll
+C:\GIT\PdfGenerator\obj\Debug\net9.0\refint\PdfGenerator.dll
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.pdb
+C:\GIT\PdfGenerator\obj\Debug\net9.0\PdfGenerator.genruntimeconfig.cache
+C:\GIT\PdfGenerator\obj\Debug\net9.0\ref\PdfGenerator.dll

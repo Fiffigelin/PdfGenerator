@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personligt Brev - Modern Stil</title>
+		<style>
+			@page {
+				size: A4;
+				margin: 20mm;
+			}
+			html,
+			body {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			.container {
+				background: white;
+				height: 100vh;
+				padding: 20px;
+				display: -webkit-box;
+				display: flex;
+
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-moz-box-orient: vertical;
+				-moz-box-direction: normal;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+			header {
+				display: -webkit-box;
+				display: flex;
+				-webkit-box-pack: justify;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+				margin: 10px;
+			}
+
+			.letter-container {
+				-webkit-box-flex: 1;
+				flex: 1;
+				margin: 0 10px;
+			}
+			.company {
+				margin-bottom: 15px;
+			}
+			.paragraph {
+				display: -webkit-box;
+				display: flex;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-webkit-flex-direction: column;
+				flex-direction: column;
+				text-align: justify;
+				margin: 30px 0;
+			}
+			.footer-container {
+				display: -webkit-box;
+				display: flex;
+
+				-webkit-box-pack: justify;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+				margin: 10px;
+
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+			}
+			.footer-text {
+				margin: 0;
+				font-size: 15px;
+				color: grey;
+			}
+			h1 {
+				font-size: 2em;
+			}
+			p {
+				line-height: 1.2;
+				font-size: 18px;
+				margin: 0;
+			}
+			.signature {
+				font-weight: bold;
+				margin-top: 20px;
+			}
+			.bold {
+				font-weight: bold;
+			}
+			.small {
+				font-size: 15px;
+			}
+			.margin-top {
+				margin-top: 12px;
+			}
+			ul {
+				margin: 4px 0;
+			}
+			li {
+				font-size: 18px;
+			}
+			.margin-bottom-p {
+				margin-bottom: 4px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div>
+					<h1>Johanna Andersson</h1>
+				</div>
+				<div>
+					<div class="info-section">
+						<p class="bold">Address</p>
+						<p class="small">Storgatan 45</p>
+						<p class="small margin-bottom-p">123 45 Stockholm</p>
+					</div>
+					<div class="info-section">
+						<p class="bold">Email</p>
+						<p class="small margin-bottom-p">johanna.andersson@mail.com</p>
+					</div>
+					<div class="info-section">
+						<p class="bold">Phone number</p>
+						<p class="small margin-bottom-p">070-123 45 67</p>
+					</div>
+				</div>
+			</header>
+
+			<div class="letter-container">
+				<div class="company">
+					<p class="bold"> ABC Företag </p>
+					<p>ABC gata 123</p>
+					<p>456 Ort</p>
+					<p class="margin-top"
+						>Re: Erfaren frontendare sökes till företag med framåtanda</p
+					>
+				</div>
+
+				<div class="greeting paragraph">
+					<p>Hej ABC Företag,</p>
+					<p
+						>Jag såg att ni söker en frontendutvecklare och tänkte att det är klart
+						jag ska söka – för jag är precis den person ni inte visste att ni behövde!
+						Med över 25 års erfarenhet av att koda på min iPhone under tågresor (utan
+						Wi-Fi, förstås), är jag övertygad om att jag har de där extra
+						färdigheterna som gör mig till en unik kandidat.</p
+					>
+				</div>
+
+				<div class="background paragraph">
+					<p
+						>Min bakgrund? Jag började min karriär som en väderprognos-programmerare
+						för min hemstad (den där regnappen vi alla hatar att använda?), innan jag
+						insåg att jag hellre ville skapa de fina regndropparna som faller på din
+						skärm. Sen dess har jag designat webbsidor med enbart geléhallon och kodat
+						i språk jag själv uppfann på en semesterdag i Toscana.</p
+					>
+				</div>
+
+				<div class="background paragraph">
+					<p>
+						Jag har erfarenhet av att bygga användargränssnitt med hjälp av följande
+						(ganska unika) teknologier:
+					</p>
+					<ul>
+						<li
+							>JavaScript (Men, vet ni, på riktigt – jag gör det genom att skriva det i
+							sanden och scanna det med en drone.)</li
+						>
+						<li
+							>CSS (Jag använder faktiskt CSS Grid – men bara för att placera mina
+							växtarrangemang hemma.)</li
+						>
+						<li
+							>React (React? Mer som Re-act-ioner – jag bygger dynamiska UI:s med mina
+							känslor och instinkt.)</li
+						>
+					</ul>
+				</div>
+
+				<div class="bringing-to-the-table paragraph">
+					<p
+						>Och vad kan jag bidra med? Tja, jag har aldrig fått en buggrapport för
+						att jag löst problemet genom att helt enkelt prata snällt till datorn. Jag
+						kan också debugga genom att spela "whack-a-mole". Jag kommer att skapa en
+						frontend som inte bara fungerar, den kommer orsaka världsfred.</p
+					>
+				</div>
+
+				<div class="end paragraph">
+					<p
+						>Ser fram emot att höra från er – eller om ni föredrar, träffas i ett
+						virtuell te-tävling (hade tänkt bygga en app för det, men... timing är
+						svårt).</p
+					>
+					<p class="signature">Vänliga hälsningar,</p>
+					<p class="signature">Johanna Andersson</p>
+				</div>
+			</div>
+
+			<footer class="footer-container">
+				<p class="footer-text">Johanna Andersson</p>
+				<p class="footer-text">070-123 45 67</p>
+				<p class="footer-text">johanna.andersson@mail.com</p>
+			</footer>
+		</div>
+	</body>
+</html>
